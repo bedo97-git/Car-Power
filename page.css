@@ -60,7 +60,7 @@ a {
 }
 
 .btn:hover {
-  opacity: 0.8;
+  background-color:rgb(107,98,37);
 }
 
 .btn:active {
