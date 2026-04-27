@@ -41,6 +41,6 @@ hr{
   right: 20px;
 }
 .back a:hover{
-    background-color: opacity: 0.8;
+    background-color: rgb(107,98,37);
   border-radius: 20px;
 }
