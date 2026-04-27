@@ -24,11 +24,6 @@ hr{
     height: 1px;
     background-color: rgb(115, 108, 65);
 }
-.links a{
-    text-decoration: none;
-    justify-content: space-between;
-    align-items: center;
-}
 .back a {
   border: none;
   border-radius: 20px;
@@ -46,6 +41,6 @@ hr{
   right: 20px;
 }
 .back a:hover{
-    background-color: rgb(103, 174, 246);
+    background-color: opacity: 0.8;
   border-radius: 20px;
 }
