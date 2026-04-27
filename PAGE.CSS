@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap");
+
+body {
+  height: 700px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: #3301fd66;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-areas: "img h1 btn";
+  align-items: center;
+  justify-items: center;
+  width:1450px;
+  height: 100px;
+  padding: 10px 20px;
+  border-radius: 0 0 25px 25px;
+}
+
+.header h1 {
+  color: rgb(115, 108, 65);
+  font-family: "Great Vibes", cursive !important;
+  font-size: 45px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+p {
+  grid-area: p;
+}
+
+a {
+  grid-area: btn;
+}
+
+.logo {
+  grid-area: img;
+}
+
+.btn {
+  background-color: rgb(172, 134, 76);
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blanchedalmond;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.7;
+}
+
+.abdo {
+  background-color: black;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.abdo li {
+  font-family: "Cormorant Garamond";
+}
+
+.r3 {
+  margin: 30px;
+}
+
+.y {
+  color: rgb(80, 80, 142);
+}
+
+.r2 {
+  margin: 30px;
+}
+
+.r1 {
+  margin: 30px;
+}
+
+.k {
+  color: rgb(115, 108, 65);
+  font-family: "Great Vibes", cursive !important;
+  font-size: 45px;
+  font-weight: 400;
+  text-transform: none;
+  padding-bottom: 30px;
+}
+ body img:hover {
+          border-radius: 50%;
+            transform: translateY(-10px); /* الكارت بيترفع لفوق شوية */
+            box-shadow: 0 20px 30px rgba(149, 146, 146, 0.15);
+            object-fit: cover;
+        }

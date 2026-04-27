@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form action="PAGE.HTML" class="home">
+      <!--header-->
+      <div class="header">
+        <h1>Register</h1>
+      </div>
+      <!--name-->
+      <div class="name">
+        <label for="name">Name :</label>
+        <br />
+        <input type="text" name="nm" id="name" required />
+      </div>
+      <!--email-->
+      <div class="email">
+        <label for="email">Email :</label>
+        <br />
+        <input
+          type="email"
+          name="em"
+          id="email"
+          placeholder="Example@gmail.com"
+          required
+        />
+      </div>
+      <!--password-->
+      <div class="password">
+        <label for="passkey">Password :</label>
+        <br />
+        <input type="password" name="password" id="passkey" required />
+      </div>
+      <!--gender-->
+      <div class="gender">
+        <label for="gen">Gender :</label>
+        <br />
+        <input type="radio" name="gen" id="ml" value="Male" required />
+        <label for="ml">Male</label>
+        <br />
+        <input type="radio" name="gen" id="fl" value="Female" required />
+        <label for="fl">Female</label>
+      </div>
+      <!--interests-->
+      <div class="interests">
+        <label for="in">Interests :</label>
+        <br />
+        <input type="checkbox" name="in" id="bmw" value="BMW" />
+        <label for="bmw">BMW</label>
+        <br />
+        <input type="checkbox" name="in" id="mer" value="mercedes" />
+        <label for="mer">Mercedes</label>
+        <br />
+        <input type="checkbox" name="in" id="volks" value="volkswagen" />
+        <label for="volks">Volkswagen</label>
+        <br />
+      </div>
+      <!--buttons-->
+      <div class="btn">
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+      </div>
+
+      <div class="forget">
+        <a href="#">forget password</a>
+      </div>
+    </form>
+  </body>
+</html>

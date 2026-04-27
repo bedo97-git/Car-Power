@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    font-family: Arial;
+    text-align: center;
+}
+h1{
+    color: rgb(115, 108, 65);
+}
+h2{
+    color: white;
+}
+.highlight{
+    color: white;
+    font-size: 18px;
+}
+.detail{
+    color: white;
+}
+.footer{
+    color: rgb(115, 108, 65);
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(115, 108, 65);
+}
+.links a{
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.back a {
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(115, 108, 65) ;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+}
+.back a:hover{
+    background-color: rgb(103, 174, 246);
+  border-radius: 20px;
+}

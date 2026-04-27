@@ -1,0 +1,99 @@
+body{
+  background-color: black;
+}
+.home {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 20px;
+  width: 450px;
+  height: auto;
+  margin: auto 50px;
+  margin-top: 20px;
+  background-color: #0f172a;
+  justify-items: center;
+  box-shadow: 0 0px 30px rgba(123, 122, 122, 0.8);
+  border-color: #3b82f6;
+  color: #f8fafc
+}
+
+.header {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.home input {
+  border-color: slategray;
+  background-color: rgb(103, 174, 246);
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  margin-top: 10px;
+}
+.home label{
+  color: #007bff;
+  font-weight: bold;
+}
+
+.name {
+  margin: 20px;
+}
+
+.email {
+  margin: 20px;
+}
+
+.password {
+  margin: 20px;
+}
+
+.gender {
+  margin: 20px;
+}
+
+.interests {
+  margin: 20px;
+}
+input[type="checkbox"],
+label {
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn button:hover{
+  background-color: rgb(103, 174, 246);
+  border-radius: 20px;
+}
+
+.btn button{
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.forget {
+  margin-left: 280px;
+  margin-top: 20px;;
+}
+.forget a{
+  color: tomato;
+  text-decoration: none;
+}
+.forget a:hover{
+  text-decoration: underline;
+}
