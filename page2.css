@@ -29,7 +29,7 @@ hr{
   border-radius: 20px;
   width: 100px;
   height: 30px;
-  background-color: rgb(115, 108, 65) ;
+  background-color: rgb(172, 134, 76) ;
   color: white;
   text-decoration: none;
   transition: 0.2s;
@@ -41,6 +41,6 @@ hr{
   right: 20px;
 }
 .back a:hover{
-    background-color: rgb(245,227,115);
+    background-color: rgb(107,98,37);
   border-radius: 20px;
 }
