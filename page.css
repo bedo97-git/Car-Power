@@ -68,6 +68,7 @@ a {
 }
 
 .abdo {
+  flex-wrap: wrap;
   background-color: black;
   height: 450px;
   width: 100%;
