@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap");
 
 body {
-  min-height: 100vh;
   background-color: black;
   color: white;
   font-size: 20px;
@@ -20,7 +19,7 @@ body {
   grid-template-areas: "img h1 btn";
   align-items: center;
   justify-items: center;
-  width:1450px;
+  maxwidth: 100%;
   height: 100px;
   padding: 10px 20px;
   border-radius: 0 0 25px 25px;
