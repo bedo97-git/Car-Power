@@ -104,7 +104,7 @@ a {
 }
  body img:hover {
           border-radius: 50%;
-            transform: translateY(-10px); /* الكارت بيترفع لفوق شوية */
+            transform: translateY(-10px); 
             box-shadow: 0 20px 30px rgba(149, 146, 146, 0.15);
             object-fit: cover;
         }
