@@ -9,7 +9,7 @@ body{
   height: auto;
   margin: auto 50px;
   margin-top: 20px;
-  justify-items: center;
+  align-items: center;
   background-color: #0f172a;
   box-shadow: 0 0px 30px rgba(123, 122, 122, 0.8);
   border-color: #3b82f6;
