@@ -9,8 +9,8 @@ body{
   height: auto;
   margin: auto 50px;
   margin-top: 20px;
-  align-items: center;
   background-color: #0f172a;
+  justify-items: center;
   box-shadow: 0 0px 30px rgba(123, 122, 122, 0.8);
   border-color: #3b82f6;
   color: #f8fafc
